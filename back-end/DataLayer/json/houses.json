@@ -1,0 +1,389 @@
+[ 
+  {
+    "Id": "f28856a5-79a3-4e2a-9c98-5c16e8e2bb2f",
+    "Title": "Villa med fantastisk utsikt över sjön",
+    "Description": "Denna vackra villa har en spektakulär utsikt över sjön och är perfekt för den som älskar naturen. Här finns gott om utrymme för avkoppling och rekreation.",
+    "Added": "2022-03-15T12:30:45.889721",
+    "Address": "Sjövägen 14",
+    "Region": "Vättern",
+    "Type": "Villa",
+    "Size": "300",
+    "Rooms": "5",
+    "Price": 9500000,
+    "Currency": "SEK",
+    "Creator": null,
+    "Pictures": [
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?cottage"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?cottage"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?cottage"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?cottage"
+      }
+    ]
+  },
+  {
+    "Id": "b24e20d9-376a-4ac0-9a7c-86a64681616a",
+    "Title": "Charmigt radhus nära stadskärnan",
+    "Description": "Detta charmiga radhus ligger i ett lugnt område nära stadskärnan. Här finns en mysig trädgård och bekväma utrymmen för familjen.",
+    "Added": "2022-04-20T10:15:20.672389",
+    "Address": "Smedvägen 7",
+    "Region": "Stockholm",
+    "Type": "Radhus",
+    "Size": "120",
+    "Rooms": "4",
+    "Price": 4200000,
+    "Currency": "SEK",
+    "Creator": null,
+    "Pictures": [
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?house"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?house"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?house"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?house"
+      }
+    ]
+  },
+  {
+    "Id": "76fbd7cf-4932-4df6-a31b-648f9d4dce84",
+    "Title": "Nyrenoverad familjevilla nära skolor och parker",
+    "Description": "Denna nyrenoverade familjevilla är perfekt belägen nära skolor, parker och andra bekvämligheter. Den har gott om utrymme och moderna faciliteter.",
+    "Added": "2022-05-12T09:10:55.387623",
+    "Address": "Skolgatan 22",
+    "Region": "Göteborg",
+    "Type": "Villa",
+    "Size": "180",
+    "Rooms": "6",
+    "Price": 8200000,
+    "Currency": "SEK",
+    "Creator": null,
+    "Pictures": [
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?mansion"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?mansion"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?mansion"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?mansion"
+      }
+    ]
+  },
+  {
+    "Id": "c36b648a-3c0f-4d44-91e7-71b3b3e84d7c",
+    "Title": "Elegant penthouse med panoramautsikt över staden",
+    "Description": "Denna eleganta penthouse-lägenhet erbjuder enastående panoramautsikt över stadens skyline. Här kan du leva i lyx och bekvämlighet.",
+    "Added": "2022-06-28T16:20:30.998765",
+    "Address": "Skyskrapergatan 5",
+    "Region": "Stockholm",
+    "Type": "Lägenhet",
+    "Size": "160",
+    "Rooms": "4",
+    "Price": 12500000,
+    "Currency": "SEK",
+    "Creator": null,
+    "Pictures": [
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?livingroom"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?livingroom"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?livingroom"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?livingroom"
+      }
+    ]
+  },
+  {
+    "Id": "e61b620d-16a1-4dd2-8b5a-7d74aee918f0",
+    "Title": "Charmigt sommarställe vid sjön",
+    "Description": "Detta charmiga sommarställe ligger vid en vacker sjö och är perfekt för avkoppling och fiske. Ett perfekt tillflyktsort från stadens brus.",
+    "Added": "2022-07-10T14:05:12.444321",
+    "Address": "Sjövägen 8",
+    "Region": "Värmland",
+    "Type": "Sommarstuga",
+    "Size": "70",
+    "Rooms": "2",
+    "Price": 1200000,
+    "Currency": "SEK",
+    "Creator": null,
+    "Pictures": [
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?lakeview"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?lakeview"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?lakeview"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?lakeview"
+      }
+    ]
+  },
+  {
+    "Id": "e61b620d-16a1-4dd2-8b5a-7d23aee918f0",
+    "Title": "Vackert slott med utsikt över sjön",
+    "Description": "Detta vackra slott ligger vid en vacker sjö och är perfekt för avkoppling och fiske. Ett perfekt tillflyktsort från stadens brus.",
+    "Added": "2022-07-10T14:05:12.44432",
+    "Address": "Adeleborgsvägen 1",
+    "Region": "Gotland",
+    "Type": "Slott",
+    "Size": "1710",
+    "Rooms": "34",
+    "Price": 91700000,
+    "Currency": "SEK",
+    "Creator": null,
+    "Pictures": [
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?castle"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?castle"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?castle"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?castle"
+      }
+    ]
+  },
+  {
+    "Id": "e61b620d-16a1-4dd2-8b5a-7d13aee918f0",
+    "Title": "Vackert slott med utsikt över sjön",
+    "Description": "Detta vackra slott ligger vid en vacker sjö och är perfekt för avkoppling och fiske. Ett perfekt tillflyktsort från stadens brus.",
+    "Added": "2022-07-10T14:05:12.44432",
+    "Address": "Utbrytarvägen 1",
+    "Region": "Skövde",
+    "Type": "Slott",
+    "Size": "1710",
+    "Rooms": "34",
+    "Price": 91700000,
+    "Sold": 110400000,
+    "Currency": "SEK",
+    "Creator": null,
+    "Pictures": [
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?castle"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?castle"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?castle"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?castle"
+      }
+    ]
+  },
+  {
+    "Id": "76fbd7cf-4932-4df6-a31b-148f9d4dce84",
+    "Title": "Nyrenoverad familjevilla nära skolor och parker",
+    "Description": "Denna nyrenoverade familjevilla är perfekt belägen nära skolor, parker och andra bekvämligheter. Den har gott om utrymme och moderna faciliteter.",
+    "Added": "2022-05-12T09:10:55.387623",
+    "Address": "Jägarallén 1",
+    "Region": "Västerås",
+    "Type": "Slott",
+    "Size": "2140",
+    "Rooms": "35",
+    "Price": 43720000,
+    "Sold": 43895000,
+    "Currency": "SEK",
+    "Creator": null,
+    "Pictures": [
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?mansion"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?mansion"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?mansion"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?mansion"
+      }
+    ]
+  },
+  {
+    "Id": "e61b620d-16a1-4dd2-8b5a-3d74aee918f0",
+    "Title": "Charmigt sommarställe vid sjön",
+    "Description": "Detta charmiga sommarställe ligger vid en vacker sjö och är perfekt för avkoppling och fiske. Ett perfekt tillflyktsort från stadens brus.",
+    "Added": "2022-07-10T14:05:12.444321",
+    "Address": "Kabelgränd 7B",
+    "Region": "Jönköping",
+    "Type": "Radhus",
+    "Size": "140",
+    "Rooms": "5",
+    "Price": 2300000,
+    "Currency": "SEK",
+    "Creator": null,
+    "Pictures": [
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?townhouse"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?townhouse"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?townhouse"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?townhouse"
+      }
+    ]
+  },
+  {
+    "Id": "b24e20d9-376a-4ac0-9a7c-86a64281616a",
+    "Title": "Charmigt radhus nära stadskärnan",
+    "Description": "Detta charmiga radhus ligger i ett lugnt område nära stadskärnan. Här finns en mysig trädgård och bekväma utrymmen för familjen.",
+    "Added": "2022-04-20T10:15:20.672389",
+    "Address": "Plommonväg 19",
+    "Region": "Stockholm",
+    "Type": "Villa",
+    "Size": "120",
+    "Rooms": "4",
+    "Price": 4200000,
+    "Sold": 4500000,
+    "Currency": "SEK",
+    "Creator": null,
+    "Pictures": [
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?house"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?house"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?house"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900%C3%97700/?house"
+      }
+    ]
+  },
+  {
+    "Id": "a4f187bd-83d6-4a55-b216-8f9c5181e89a",
+    "Title": "Modern lägenhet med utsikt över vattnet",
+    "Description": "Denna moderna lägenhet har en fantastisk utsikt över vattnet och ligger nära shopping och restauranger.",
+    "Added": "2023-07-15T09:30:45.123456",
+    "Address": "Strandgatan 8",
+    "Region": "Göteborg",
+    "Type": "Lägenhet",
+    "Size": "80",
+    "Rooms": "3",
+    "Price": 3500000,
+    "Sold": null,
+    "Currency": "SEK",
+    "Creator": null,
+    "Pictures": [
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900x700/?apartment"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900x700/?apartment"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900x700/?apartment"
+      },
+      {
+        "PictureUrl": "https://source.unsplash.com/random/900x700/?apartment"
+      }
+      ]
+  },
+  {
+    "Id": "9b3a8727-9aef-42b1-b154-1e1b40bf534c",
+    "Title": "Rustikt bondgård med stor tomt",
+    "Description": "Denna rustika bondgård är perfekt för dem som älskar lantlivet. Stor tomt och möjligheter till djurhållning.",
+    "Added": "2023-09-02T14:20:30.987654",
+    "Address": "Lantvägen 12",
+    "Region": "Skåne",
+    "Type": "Gård",
+    "Size": "200",
+    "Rooms": "6",
+    "Price": 6000000,
+    "Sold": null,
+    "Currency": "SEK",
+    "Creator": null,
+    "Pictures": [
+        {
+            "PictureUrl": "https://source.unsplash.com/random/900x700/?farmhouse"
+        },
+        {
+            "PictureUrl": "https://source.unsplash.com/random/900x700/?farmhouse"
+        },
+        {
+            "PictureUrl": "https://source.unsplash.com/random/900x700/?farmhouse"
+        }
+    ]
+  },
+  {
+    "Id": "ce8fd4a0-e5a6-46d4-a464-1d7d3963b8d0",
+    "Title": "Strandnära stuga med sjöutsikt",
+    "Description": "Denna charmiga stuga ligger bara några steg från stranden och har en fantastisk utsikt över sjön.",
+    "Added": "2023-08-10T12:45:15.543210",
+    "Address": "Kvistaskog 5",
+    "Region": "Dalarna",
+    "Type": "Stuga",
+    "Size": "60",
+    "Rooms": "2",
+    "Price": 700000,
+    "Sold": null,
+    "Currency": "SEK",
+    "Creator": null,
+    "Pictures": [
+        {
+            "PictureUrl": "https://source.unsplash.com/random/900x700/?cottage"
+        },
+        {
+            "PictureUrl": "https://source.unsplash.com/random/900x700/?cottage"
+        }
+    ]
+  },
+  {
+    "Id": "6cde3fc1-7e4e-4bb0-b3e9-5218b9a31ff2",
+    "Title": "Modernt radhus med trädgård",
+    "Description": "Detta moderna radhus har en underbar trädgård och är perfekt för en familj som letar efter bekväma utrymmen.",
+    "Added": "2023-06-25T11:00:30.765432",
+    "Address": "Ekvägen 7",
+    "Region": "Malmö",
+    "Type": "Villa",
+    "Size": "140",
+    "Rooms": "5",
+    "Price": 4800000,
+    "Sold": 5650000,
+    "Currency": "SEK",
+    "Creator": null,
+    "Pictures": [
+        {
+            "PictureUrl": "https://source.unsplash.com/random/900x700/?townhouse"
+        },
+        {
+            "PictureUrl": "https://source.unsplash.com/random/900x700/?townhouse"
+        },
+        {
+            "PictureUrl": "https://source.unsplash.com/random/900x700/?townhouse"
+        }
+    ]
+  }
+]

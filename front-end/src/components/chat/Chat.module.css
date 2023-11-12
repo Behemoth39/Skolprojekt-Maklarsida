@@ -1,0 +1,257 @@
+/* --------------------------------------------------- */
+/* Chat Closed */
+/* --------------------------------------------------- */
+
+.chat {
+  --chat-icon: var(--button-color);
+  --chat-main: var(--secondary-color);
+  --chat-main-text: rgb(0, 0, 0);
+  --chat-bubble-broker: rgba(255, 150, 31, 0.596);
+  --chat-unread-messages: rgb(255, 166, 0);
+
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+
+  height: 3.9rem;
+  width: 3.9rem;
+  padding: .7rem 0 0 .8rem;
+
+  background-color: var(--chat-icon);
+  border-radius: 50%;
+
+  transition: all 500ms ease-in-out;
+}
+
+@media screen and (max-width: 700px),
+screen and (max-height: 700px) {
+  .chat {
+    bottom: 1rem;
+    right: 1rem;
+  }
+}
+
+.chat:hover {
+  cursor: pointer;
+}
+
+.chatUnreadMessages {
+  position: absolute;
+  right: -.5rem;
+  top: -.5rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: var(--chat-unread-messages);
+  font-size: .9rem;
+  font-weight: 500;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, .7);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* --------------------------------------------------- */
+/* Chat Open */
+/* --------------------------------------------------- */
+
+.chat-open {
+  width: 25rem;
+  max-width: calc(100vw - 2rem);
+  height: 36rem;
+  max-height: calc(100vh - 5rem);
+  border-radius: .7rem;
+  background-color: white;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, .4);
+  padding: 0;
+}
+
+.chat-open>img {
+  display: none;
+}
+
+.chat-open:hover {
+  cursor: default;
+}
+
+.header {
+  padding: .5rem .5rem .2rem .8rem;
+  border-radius: .7rem .7rem 0 0;
+  background-color: var(--chat-main);
+  color: var(--chat-main-text);
+  font-weight: 500;
+  border-bottom: 2px solid white;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.btnClose {
+  padding: .4rem .4rem .1rem .4rem;
+  margin-top: -.3rem;
+  border-radius: 50%;
+}
+
+.btnClose:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.35);
+}
+
+.input {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  padding: .5rem .5rem .6rem .5rem;
+  background-color: rgb(221, 221, 221);
+  border-radius: 0 0 .7rem .7rem;
+}
+
+.input input {
+  width: 100%;
+  height: 2.4rem;
+  padding-left: .5rem;
+
+  border: 1px solid rgb(171, 171, 171);
+}
+
+.input img {
+  position: absolute;
+  right: .9rem;
+  top: .9rem;
+
+  border: 1px solid gray;
+  border-radius: 50%;
+
+}
+
+.input img:hover {
+  cursor: pointer;
+}
+
+/* --------------------------------------------------- */
+/* Chat Box */
+/* --------------------------------------------------- */
+
+.chatbox {
+  height: calc(100% - 6.2rem);
+  padding: .5rem .5rem .7rem .5rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+/* ---When connection is not started--- */
+.chatboxNotStarted {
+  justify-content: center;
+  align-items: center;
+}
+
+.chatboxNotStarted>div {
+  width: 70%;
+}
+
+@media screen and (max-width: 450px) {
+  .chatboxNotStarted>div {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .chatboxNotStarted>div {
+    width: 90%;
+  }
+}
+
+.chatboxNotStarted h3 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.chatboxNotStarted input {
+  width: 100%;
+  padding: .3rem;
+  border: none;
+  box-shadow: 0 0 3px 1px rgb(67, 67, 67);
+  margin-bottom: .2rem;
+}
+
+.chatboxNotStarted input::placeholder {
+  color: rgb(153, 153, 153);
+}
+
+.chatboxNotStarted p {
+  width: 100%;
+  font-size: .7rem;
+  color: rgb(106, 106, 106);
+  font-style: italic;
+}
+
+.chatboxNotStarted button {
+  width: 100%;
+  margin-top: 1rem;
+  background-color: var(--chat-main);
+  color: var(--chat-main-text);
+  font-weight: 500;
+  padding: .4rem 0;
+  border: none;
+}
+
+.chatboxNotStarted button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* ------------------------- */
+
+
+.bubble {
+  position: relative;
+  display: inline-block;
+  margin-top: .8rem;
+  padding: 0 .5rem .4rem .5rem;
+  width: 80%;
+
+  border-radius: .5rem;
+  background-color: rgba(225, 225, 225, 0.813);
+}
+
+.bubble b {
+  font-weight: 500;
+  font-size: .8rem;
+}
+
+.bubble p {
+  font-size: .9rem;
+  padding-top: .2rem;
+}
+
+.bubble span {
+  position: absolute;
+  right: -2.3rem;
+  bottom: .1rem;
+  font-size: .8rem;
+  color: rgb(81, 81, 81);
+}
+
+.bubbleMyMessage {
+  background-color: var(--chat-main);
+  color: var(--chat-main-text);
+  margin-left: auto;
+  width: 80%;
+}
+
+.bubbleMyMessage span {
+  position: absolute;
+  left: -2.3rem
+}
+
+.bubbleBroker {
+  background-color: var(--chat-bubble-broker);
+}

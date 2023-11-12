@@ -1,0 +1,32 @@
+[
+  {
+    "userName": "sebastian",
+    "password": "sebastian",
+    "isadmin": true
+  },
+  {
+    "userName": "simon",
+    "password": "simon",
+    "isadmin": true
+  },
+  {
+    "userName": "oskar",
+    "password": "oskar",
+    "isadmin": true
+  },
+  {
+    "userName": "silva",
+    "password": "silva",
+    "isadmin": true
+  },
+  {
+    "userName": "testadmin",
+    "password": "testadmin",
+    "isadmin": true
+  },
+  {
+    "userName": "testuser",
+    "password": "testuser",
+    "isadmin": false
+  }
+]

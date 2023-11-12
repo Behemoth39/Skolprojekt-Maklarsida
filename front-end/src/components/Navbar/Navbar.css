@@ -1,0 +1,97 @@
+.navbar__height {
+  height: var(--navbar-height);
+}
+
+.navbar {
+  height: var(--navbar-height);
+  width: 100%;
+
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+
+  background-color: var(--primary-color);
+  color: var(--primary-color-text);
+
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  height: 100%;
+}
+
+.navbar ul li {
+  padding: 0 1.3rem;
+  height: 100%;
+
+}
+
+.navbar ul li a,
+.navbar button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 1.3rem;
+  font-size: 1.2rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+}
+
+.navbar ul li a:hover,
+.navbar button:hover {
+  background-color: var(--secondary-color);
+  color: var(--secondary-color-text);
+}
+
+.navbar button {
+  border: none;
+  cursor: pointer;
+  margin-left: 1rem;
+  background-color: var(--primary-color);
+  color: var(--primary-color-text);
+}
+
+@media screen and (max-width: 700px) {
+  .navbar button {
+    font-size: 1rem;
+    margin-left: 0;
+  }
+
+  .navbar ul li {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .navbar ul li a {
+    font-size: 1rem;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .navbar button {
+    padding-left: .7rem;
+    padding-right: .7rem;
+  }
+
+  .navbar ul li a {
+    padding-left: .7rem;
+    padding-right: .7rem;
+  }
+}
+
+.active {
+  color: var(--third-color);
+  font-weight: 500;
+}
+
+.active:hover {
+  background-color: inherit !important;
+  color: var(--third-color) !important;
+  cursor: default;
+}

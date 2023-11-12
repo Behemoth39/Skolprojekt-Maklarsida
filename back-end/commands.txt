@@ -1,0 +1,13 @@
+dotnet ef migrations add InitialCreate -o Data/Migrations
+dotnet ef migrations add HouseTable -o Data/Migrations
+
+dotnet ef database drop
+dotnet ef database update
+dotnet run
+
+dotnet ef migrations list     // Visar alla migration
+dotnet ef migrations remove   // Raderar den senaste migrationen
+
+
+// Combined
+dotnet ef database drop;dotnet ef database update;dotnet run

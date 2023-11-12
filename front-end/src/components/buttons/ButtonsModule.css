@@ -1,0 +1,51 @@
+:root {
+    --delete-color: rgb(240, 47, 47);
+    --edit-color: rgb(35, 135, 216);
+    --create-color: var(--button-color);
+}
+
+.btn {
+    border: none;
+    color: white;
+    padding: .5rem 2rem;
+    text-align: center;
+    font-size: .9rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 100%;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn-delete {
+    background-color: var(--delete-color);
+    margin-bottom: .5rem;
+
+}
+
+.btn-delete:hover {
+    opacity: .7;
+}
+
+.btn-edit {
+    background-color: var(--edit-color);
+}
+
+
+.btn-edit:hover {
+    opacity: .7;
+}
+
+.btn-create {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--button-color);
+    margin-bottom: 1rem;
+}
+
+.btn-create:hover {
+    opacity: .85;
+}

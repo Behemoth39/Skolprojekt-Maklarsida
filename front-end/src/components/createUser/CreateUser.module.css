@@ -1,0 +1,114 @@
+.button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.3rem;
+
+  background-color: var(--button-color);
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding: .5rem 1rem;
+  cursor: pointer;
+}
+
+.modalOuter {
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(4px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalInner {
+  overflow: auto;
+  position: relative;
+  width: 85vw;
+  max-height: 85vh;
+  max-width: 30rem;
+  background-color: white;
+  padding: 1rem;
+}
+
+.closeButton {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  background-color: var(--button-color);
+  color: var(--button-color-text);
+  border: none;
+  font-weight: 500;
+  min-width: 5rem;
+}
+
+.closeButton:hover {
+  text-decoration: underline;
+}
+
+.table {
+  border-collapse: collapse;
+  margin-top: 0.5rem;
+}
+
+.table th {
+  border: 1px solid black;
+  padding: 0.2rem 0.5rem;
+  background-color: rgb(105, 105, 105);
+  color: white;
+}
+
+.table td {
+  border: 1px solid black;
+  padding: 0.2rem 0.5rem;
+}
+
+.form label {
+  margin-top: 0.3rem;
+  display: block;
+}
+
+.form input {
+  display: block;
+  border-radius: 0.3rem;
+  border: 1px solid gray;
+  padding: 0.3rem 0.6rem;
+}
+
+.form button {
+  margin-top: 1rem;
+  padding: 0.5rem 2rem;
+  background-color: rgb(52, 170, 41);
+  color: white;
+  font-weight: 500;
+  border: none;
+}
+
+.form button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.buttonAnotherUser {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: rgb(200, 144, 14);
+  color: white;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}

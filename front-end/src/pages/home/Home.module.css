@@ -1,0 +1,70 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 3rem;
+}
+
+.splash {
+    position: relative;
+    height: calc(100vh - var(--navbar-height));
+    width: 100%;
+
+    background-image: linear-gradient(133deg, rgba(141, 108, 0, 0.356) 0%, rgba(73, 0, 126, 0.808) 100%), url(../../assets//images/house.webp);
+    background-position: 55% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.splash h1 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    padding: 0 .5rem;
+}
+
+.splash p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 0 .5rem;
+}
+
+.splash img {
+    position: absolute;
+    bottom: 3rem;
+    transition: all 250ms;
+}
+
+.splash img:hover {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 800px) {
+    .splash img:hover {
+        width: 6rem;
+        height: 6rem;
+        margin-bottom: -.75rem;
+    }
+}
+
+
+@media screen and (max-height: 450px) {
+    .splash img {
+        bottom: 1rem;
+    }
+}
+
+.divider {
+    width: 100%;
+    max-width: 90vw;
+    height: .2rem;
+    margin: 2rem 0;
+    background-color: var(--button-color);
+}

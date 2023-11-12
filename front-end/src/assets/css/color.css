@@ -1,0 +1,18 @@
+:root {
+  --navbar-height: 3rem;
+
+  --primary-color: #29133b;
+  --primary-color-text: rgb(255, 255, 255);
+
+  --secondary-color: #fbd8dc;
+  --secondary-color-text: #000000;
+
+  --third-color: #ebc6d3;
+
+  --shadow-color: rgba(0, 0, 0, 0.2);
+
+  --house-card-color: rgb(244, 250, 255);
+
+  --button-color: #5a2b82;
+  --button-color-text: #ffffff;
+}

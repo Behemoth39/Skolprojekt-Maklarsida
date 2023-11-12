@@ -1,0 +1,36 @@
+.news-holder {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.3rem;
+    position: relative;
+
+    width: 100%;
+    max-width: 40rem;
+    margin: 0 auto;
+
+    padding: 0 1rem;
+}
+
+.news-item {
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: .3rem solid rgba(224, 104, 48, 0.342);
+    border-radius: .5rem;
+}
+
+.news-item h3 {
+    color: var(--primary-color);
+    margin-bottom: .6rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    border-bottom: 2px solid rgba(115, 0, 150, 0.37);
+}
+
+#news-anchor {
+    position: absolute;
+    top: -7rem;
+}
+
+.news-logged-in {
+    margin-top: 1rem;
+}
