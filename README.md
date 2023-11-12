@@ -1,4 +1,9 @@
-# Grupp 3 - Mäklarsida
+# Skolprojekt
+
+Detta är ett grupprojekt där vi använt oss av allt vi lärt oss under utbildningens gång.
+Projektgruppen bestod av 4 medlemmar och projektet pågick i 6 veckor. 
+
+# Mäklarsida
 
 
 1. [ 🏡 Projektidé ](#ide)
